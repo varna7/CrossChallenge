@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="main-body">
+            <div class="calc">
+                <div class="output">
+                    <input type="text" id="screen">
+                </div>
+                <div class="buttons">
+                    <div class="row">
+                        <button onclick="buttonclick(7)">7</button>
+                        <button onclick="buttonclick(8)">8</button>
+                        <button onclick="buttonclick(9)">9</button>
+                        <button onclick="buttonclick('/')">/</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="buttonclick(4)">4</button>
+                        <button onclick="buttonclick(5)">5</button>
+                        <button onclick="buttonclick(6)">6</button>
+                        <button onclick="buttonclick('*')">*</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="buttonclick(1)">1</button>
+                        <button onclick="buttonclick(2)">2</button>
+                        <button onclick="buttonclick(3)">3</button>
+                        <button onclick="buttonclick('-')">-</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="clearDisplay()">clr</button>
+                        <button onclick="buttonclick(0)">0</button>
+                        <button onclick="equalClick('=')">=</button>
+                        <button onclick="buttonclick('+')">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script> 
+    </body>
+</html>
