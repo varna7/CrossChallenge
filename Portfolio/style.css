@@ -1,0 +1,31 @@
+.navbg{
+  background-color: #efb293;
+}
+ul{
+  list-style-type: none;
+
+}
+h3{
+  line-height: 0.2;
+}
+.navbar
+{
+  padding-top: -0.5rem;
+  padding-bottom: -0.5rem;
+}
+.row
+{
+  height: 70px;
+}
+.img-fluid {
+  max-width: 50%;
+  height: auto;
+}
+.start
+{
+  padding:80px 30px;
+}
+.intro
+{
+  padding-top: 10rem;;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">click me</button>
+    <div style="width:300px;height:200px;background: pink;" id="box"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                //alert("hiii world")
+                $("#box").toggle(3000)
+            })
+            $("#btn").mouseenter(function(){
+                $("#box").css({"background":"red"})
+            })
+            $("#btn").mouseleave(function(){
+                $(this).css({"background":"blue"})
+            })
+        })
+    </script>
+</body>
+</html>
